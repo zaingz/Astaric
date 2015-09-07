@@ -1,0 +1,43 @@
+.team_header{
+
+  position: relative;
+  background-color: $primary_yellow;
+
+  .heading{
+    margin-top: 3.8%;
+
+
+    text-align: center;
+    color: $white;
+
+    h1{font-family: Neris-Thin;font-size: 3.5em;opacity: 1;
+      b{font-family: Neris;}
+    }
+
+  }
+  .icon{margin-top:1.2%;margin-bottom:5%;  img{margin: 0 auto;}}
+}
+
+.team_members{
+  margin: 0;padding: 0;width: 100%;overflow: hidden;
+  .col-sm-3{padding: 0;
+    margin: 0;
+    overflow:hidden;
+
+    background-image: image-url('khuram.png');
+    background-size: cover;
+
+    i{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+  .caption{-webkit-transition: opacity .55s ease;
+    padding-top: 35%;
+    -moz-transition: opacity .25s ease;height: 350px;width: 100%; background-color: rgba(0,0,0,0.6);z-index: 2;text-align: center;vertical-align: middle;opacity: 0}
+  .intro{
+    line-height: 5px;
+  }
+    &:hover .caption{opacity: 1;color: $white;}
+}
+}

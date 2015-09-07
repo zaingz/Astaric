@@ -1,0 +1,42 @@
+.facts{
+
+  .overlay {
+
+    position: relative;
+    background-color:#062033;
+    opacity: 0.8;
+    .heading {
+      margin-top: 7%;
+
+      text-align: center;
+      color: $white;
+
+      h1 {
+        font-family: Neris-Thin;
+        font-size: 3.5em;
+        opacity: 1;
+        b {
+          font-family: Neris;
+        }
+      }
+
+    }
+    .icon {
+      margin-top: 1.2%;
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+  .facts_box{
+    opacity:1;
+    margin-top:6% ;
+    margin-bottom: 7%;
+    .indi_fact{
+      font-family: Neris-Thin;
+      color: $white;
+      h2{font-size: 4em;margin-top: 5px;}
+      span{font-size: 1em;}
+    }
+  }
+}

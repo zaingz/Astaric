@@ -1,0 +1,19 @@
+.social{
+  .overlay{
+    margin: 0 auto;
+    position: relative;
+    .heading{
+      margin-top: 7%;
+
+      text-align: center;
+      color: $white;
+
+      h1{font-family: Neris-Thin;font-size: 3.5em;opacity: 1;
+        b{font-family: Neris;}
+      }
+
+    }
+    .icon{margin-top:1.2%; img{margin: 0 auto;}}
+    .social_box{margin-top: 9%;margin-bottom: 9%;.col-sm-2{img{margin: 0 auto;}}}
+}
+}

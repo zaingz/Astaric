@@ -1,0 +1,41 @@
+.contact{
+
+
+    position: relative;
+    background-color: #222222;
+
+  #map{
+    position: absolute;
+    margin-left: 49%;
+    height: 100%;
+    width: 49%;
+
+  }
+    .heading{
+      margin-top: 7%;
+
+
+      text-align: center;
+      color: $white;
+
+      h1{font-family: Neris-Thin;font-size: 3.5em;opacity: 1;
+        b{font-family: Neris;}
+      }
+
+    }
+    .icon{margin-top:1.2%; img{margin: 0 auto;}}
+
+  .form_box{
+    margin-top: 2%;
+    .small{margin: 30px 5px 30px 5px;height: 45px;}
+    .big{margin: 30px 5px 30px 5px;height: 194px;}
+
+    }
+  .send_btn{
+    margin-top: 1%;
+
+    margin-bottom: 7%;
+    button{background-color: $primary_yellow;border:none;color:$white;font-size: 1.3em; padding: 17px 36px 17px 36px;}
+  }
+  }
+
