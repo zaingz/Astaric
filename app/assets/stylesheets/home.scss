@@ -60,9 +60,11 @@ body{
 @media (max-width: 480px) {
   #header_box_text{margin-top: 45%;;}
   #view_btn{margin-bottom: 17%; font-size: 2.5em;}
-  #circle_three{margin-top: 30%;}
-  #circle_four{margin-top: 30%;}
-  .circle_bar{margin-left: 0.0%;    padding-bottom: 65px !important;}
+  #circle_three{margin-top: 50%;}
+  #circle_four{margin-top: 50%;}
+
+  #circle_two{margin-top: 50%;}
+  .circle_bar{margin-left: 12.0%;    padding-bottom: 65px !important; .col-xs-6{padding: 0;margin: 0}}
   .indi_fact{margin-bottom: 20%;}
   .social_box{.col-xs-4{margin-bottom: 6%;}}
   #view_btn{
