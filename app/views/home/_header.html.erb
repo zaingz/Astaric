@@ -1,9 +1,82 @@
 
 <div class="container-fluid header" >
 
-    <div class="row">
+  <div class="row image_surface  ">
+    <div class="col-sm-8 col-sm-offset-2">
+        <img id="lcd_big" class="img img-responsive   wow fadeInDownBig" data-wow-delay="0.2s" src=<%=asset_path('lcd_big.png')%>/>
+    </div>
+
+<div class="col-md-12">
+    <div class="first_line">
+      <div class="col-sm-6 ">
+      <img id="usb" class="img img-responsive wow rotateIn hidden-xs" data-wow-delay="0.3s" src=<%=asset_path('usb.png') %>/>
+      </div>
+      <div class="col-sm-6 ">
+      <img id="iphone" class="img img-responsive  wow bounceInDown hidden-xs" data-wow-delay="0.25s" src=<%=asset_path('iphone.png')%>/>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+    <!--second for glass-->
+
+    <div class="col-md-12">
+      <div class="second_line">
+
+          <img id="glasses " class="img img-responsive wow lightSpeedIn hidden-xs" data-wow-delay="0.4s" src=<%=asset_path('glasses.png')%>/>
+
+      </div>
+
+
+
+
+    </div>
+
+
+    <!--third for dairy and keyboard -->
+
+    <div class="col-md-12">
+      <div class="third_line">
+
+        <div class="col-sm-3 dairy_box ">
+          <img id="dairy" class="img img-responsive  wow rotateIn hidden-xs" data-wow-delay="0.6s" src=<%=asset_path('dairy.png')%>/>
+
+        </div>
+
+        <div class="col-sm-3 pencil_box">
+          <img id="pencil" class="img img-responsive wow rotateInUpRight  hidden-sm hidden-xs" data-wow-delay="0.65s" src=<%=asset_path('pencil.png')%>/>
+
+        </div>
+
+        <div class="col-sm-5 keyboard_box ">
+          <img width="250" id="keyboard " class="img img-responsive pull-right wow bounceInUp hidden-sm hidden-xs" data-wow-delay="0.65s" src=<%=asset_path('keyboard.png')%>/>
+
+        </div>
+
+        <div class="col-sm-1 mouse_box">
+          <img id="mouse"  width="50" class="img img-responsive wow rotateInDownLeft hidden-xs" data-wow-delay="0.5s" src=<%=asset_path('mouse.png')%>/>
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+    <div class="row text_surface">
       <div id="header_box_text" class="col-md-6 col-md-offset-3 text-center opening_text">
-        <h1>We make websites and app that you will love to have</h1>
+        <h1 id="idea2">#idea2solution</h1>
+        <h2>Mobile | Print | Media</h2>
       </div>
       <div class="col-md-2 col-md-offset-5 text-center">
         <button id="view_btn" class="btn btn-default">Portfolio</button>

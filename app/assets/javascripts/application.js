@@ -16,4 +16,6 @@
 //= require turbolinks
 //= require_tree .
 
+
+
 new WOW().init();

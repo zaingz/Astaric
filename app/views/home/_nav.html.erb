@@ -1,10 +1,11 @@
-<div id="sticker" class="container-fluid z_nav visible-lg">
+<!--
+<div id="sticker" class="container-fluid z_nav hidden-xs">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="col-md-2 top_it">
+      <div class="col-xs-2 top_it">
         <a href="#" id="image_home"><img class="img img-responsive" src=<%=asset_path('logo.png')%> /></a>
       </div>
-      <div class="col-md-7 col-md-offset-3 top_it">
+      <div class="col-xs-8 col-xs-offset-2 top_it">
         <ul class="nav_links">
 
           <li><a id="service" href="" data-hover="Services">Services</a></li>
@@ -16,7 +17,46 @@
           <li><a id="social" href="#" data-hover="Social">Social</a></li>
 
         </ul>
+
       </div>
     </div>
   </div>
 </div>
+
+-->
+
+
+
+
+<!--
+new test-->
+
+
+
+
+
+<nav id="sticker" class="navbar z_nav">
+  <div class="container">
+    <div class="navbar-header">
+      <button id="mob_tog" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+       <i class="fa fa-bars fa-1x"></i>
+
+      </button>
+      <a href="#" id="image_home"><img class="img img-responsive" src=<%=asset_path('logo.png')%> /></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav nav_links navbar-right">
+        <li><a id="service" href="" data-hover="Services">Services</a></li>
+        <li><a id="portfolio" href="#" data-hover="Portfolio">Portfolio</a></li>
+        <li><a id="skills" href="#" data-hover="Skill">Skills</a></li>
+        <li><a id="facts" href="#" data-hover="Facts">Facts</a></li>
+        <li><a id="team" href="#" data-hover="Team">Team</a></li>
+        <li><a id="contact" href="#"  data-hover="Contact">Contact</a></li>
+        <li><a id="social" href="#" data-hover="Social">Social</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+

@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 
-
     $('#view_btn').click(function(e) {
 
         e.preventDefault();
@@ -14,5 +13,7 @@ $(document).ready(function() {
         e.preventDefault();
         $("html, body").delay(1).animate({scrollTop: $('.header').offset().top-0 }, 1000);
     });
+
+
 
 });

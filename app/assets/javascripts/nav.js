@@ -18,7 +18,7 @@ $(document).ready(function() {
     $('#portfolio').click(function(e) {
 
         e.preventDefault();
-        $("html, body").delay(1).animate({scrollTop: $('.port_header').offset().top-100 }, 1000);
+        $("html, body").delay(1).animate({scrollTop: $('.port_header').offset().top-50 }, 1000);
     });
     $('#skills').click(function(e) {
 
@@ -29,17 +29,17 @@ $(document).ready(function() {
     $('#facts').click(function(e) {
 
         e.preventDefault();
-        $("html, body").delay(1).animate({scrollTop: $('.facts').offset().top-95 }, 1000);
+        $("html, body").delay(1).animate({scrollTop: $('.facts').offset().top-51 }, 1000);
     });
     $('#team').click(function(e) {
 
         e.preventDefault();
-        $("html, body").delay(1).animate({scrollTop: $('.team_header').offset().top-95 }, 1000);
+        $("html, body").delay(1).animate({scrollTop: $('.team_header').offset().top-51 }, 1000);
     });
     $('#contact').click(function(e) {
 
         e.preventDefault();
-        $("html, body").delay(1).animate({scrollTop: $('.contact').offset().top-95 }, 1000);
+        $("html, body").delay(1).animate({scrollTop: $('.contact').offset().top-51 }, 1000);
     });
 
 
