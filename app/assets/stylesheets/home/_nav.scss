@@ -20,7 +20,7 @@
       display: inline-block;
       margin-left: 15px;
       margin-right: 15px;
-      &:hover{background-color: transparent}
+
       a {
         font-size: 1em;
         color: #fff;
@@ -46,9 +46,10 @@
         &:focus::before {
           transform: scale(0.9);
           opacity: 0;
+
         }
 
-
+&:hover{background-color: $primary_yellow; color: white;}
       }
     }
   }

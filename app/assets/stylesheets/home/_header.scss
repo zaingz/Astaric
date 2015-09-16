@@ -10,7 +10,7 @@
 
   .row{margin: 0px;}
 
-  .image_surface{position: absolute;width: 100%; z-index: 99}
+  .image_surface{position: absolute;width: 100%; z-index: 0}
   .text_surface{position: relative;}
 
 
@@ -41,12 +41,15 @@
     margin-top: 22%;
     font-size: 4em;
     position: relative;
-    font-weight: 200;
+
+    font-weight: 400;
     #idea2{
       font-size: 0.7em;
       position: relative;
-      font-weight: 900;
+      font-family: Neris-Thin;
+      font-weight: 200;
     }
+    #idea2_small{ font-family: Neris-Thin;}
 
   }
   #view_btn{
@@ -58,7 +61,11 @@
     padding-left: 20px;
     padding-right: 20px;
     color: $white;
+    z-index: 9999;
     margin-bottom: 128%;
+    transition:  all 0.3s;
+    &:hover{background-color: white;
+    color: #F7941E}
   }
 
 }
