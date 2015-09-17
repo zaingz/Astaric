@@ -1,3 +1,4 @@
+<!--
 
 <div class="container-fluid header" >
 
@@ -22,7 +23,7 @@
 </div>
 
 
-    <!--second for glass-->
+    &lt;!&ndash;second for glass&ndash;&gt;
 
     <div class="col-md-12"  style="top:-100px;">
       <div class="second_line" >
@@ -37,7 +38,7 @@
     </div>
 
 
-    <!--third for dairy and keyboard -->
+    &lt;!&ndash;third for dairy and keyboard &ndash;&gt;
 
     <div class="col-md-12"  style="top:-60px;">
       <div class="third_line " >
@@ -83,3 +84,378 @@
       </div>
     </div>
 </div>
+-->
+
+
+<!--new temp style -->
+
+
+
+
+
+
+
+
+<div class="container-fluid header" >
+
+  <div class="row image_surface  ">
+    <div id="lcd_big" class="col-sm-8 col-sm-offset-2">
+      <img id="logo_img" class="img img-responsive   wow fadeInDownBig" data-wow-delay="0.2s" src=<%=asset_path('head_logo.png')%>/>
+    </div>
+
+    <div class="col-md-12" style="top:200px;">
+      <div class="first_line">
+        <div class="col-sm-6 " >
+          <img id="usb" class="img img-responsive wow rotateIn hidden-xs" data-wow-delay="0.3s" src=<%=asset_path('usb.png') %>/>
+        </div>
+        <div class="col-sm-6 ">
+          <img id="iphone" class="img img-responsive  wow bounceInDown hidden-xs" data-wow-delay="0.25s" src=<%=asset_path('iphone.png')%>/>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <!--second for glass-->
+
+    <div class="col-md-12" style="top:180px;">
+      <div class="second_line" >
+
+        <img id="glasses " class="img img-responsive wow lightSpeedIn hidden-xs" data-wow-delay="0.4s" src=<%=asset_path('glasses.png')%>/>
+
+      </div>
+
+
+
+
+    </div>
+
+
+    <!--third for dairy and keyboard -->
+
+    <div class="col-md-12" style="top:200px;">
+      <div class="third_line " >
+
+        <div class="col-sm-3 dairy_box ">
+          <img id="dairy" class="img img-responsive  wow rotateIn hidden-xs" data-wow-delay="0.6s" src=<%=asset_path('dairy.png')%>/>
+
+        </div>
+
+        <div class="col-sm-3 pencil_box">
+          <img id="pencil" class="img img-responsive wow rotateInUpRight  hidden-sm hidden-xs" data-wow-delay="0.65s" src=<%=asset_path('pencil.png')%>/>
+
+        </div>
+
+        <div class="col-sm-5 keyboard_box ">
+          <img width="250" id="keyboard " class="img img-responsive pull-right wow bounceInUp hidden-sm hidden-xs" data-wow-delay="0.65s" src=<%=asset_path('keyboard.png')%>/>
+
+        </div>
+
+        <div class="col-sm-1 mouse_box">
+          <img id="mouse"  width="50" class="img img-responsive wow rotateInDownLeft hidden-xs" data-wow-delay="0.5s" src=<%=asset_path('mouse.png')%>/>
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+  <div class="row text_surface">
+    <div id="header_box_text" class="col-md-6 col-md-offset-3 text-center opening_text">
+
+      <h2 class=" wow flipInX" data-wow-delay="0.5s"   id="idea2_small">Mobile | Print | Media</h2>
+    </div>
+
+    <div style="margin-bottom: 6%;" class="col-md-6 col-md-offset-3 text-center sub_input wow zoomIn" data-wow-delay="0.5s">
+
+                            <span class="input input--kuro">
+                                <input class="input__field input__field--kuro" type="text" id="input-7" />
+                                <label class="input__label input__label--kuro" for="input-7">
+                                  <span class="input__label-content input__label-content--kuro">Subscribe</span>
+                                </label>
+                            </span>
+
+    </div>
+
+
+  </div>
+</div>
+
+<div style="background-color: #062033; color:white; padding-top: 20px;padding-bottom: 20px;" class="container-fluid">
+  <div class="row">
+
+    <div class="col-sm-4">
+
+      <i class="fa fa-map-marker fa-2x"></i> &nbsp; 605, Old MOE Building, Mirqab, Kuwait
+
+
+    </div>
+    <div class="col-sm-4">
+
+
+      <i class="fa fa-map-marker fa-2x"></i>&nbsp; 610 High Road, ILFORD, ESSEX, 1G3 8RF, London UK
+
+
+    </div>
+    <div class="col-sm-4 ">
+
+
+      <i class="fa fa-map-marker fa-2x"></i>&nbsp; M-26, Siddiq Trade Center Gulberg 3, Lahore, Pakistan
+
+    </div>
+  </div>
+</div>
+
+<style>
+
+
+    /*kozakura*/
+    .input {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        margin: 0.8em;
+        max-width: 450px;
+        width: calc(100% - 2em);
+        vertical-align: top;
+    }
+
+    .input__field {
+        position: relative;
+        display: block;
+        float: right;
+        padding: 0.8em;
+        width: 60%;
+        border: none;
+        border-radius: 0;
+        background: #f0f0f0;
+        color: #aaa;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        -webkit-appearance: none; /* for box shadows to show on iOS */
+    }
+
+    .input__field:focus {
+        outline: none;
+    }
+
+    .input__label {
+        display: inline-block;
+        float: right;
+        padding: 0 1em;
+        width: 40%;
+        color: white;
+        font-weight: bold;
+        font-size: 70.25%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .input__label-content {
+        position: relative;
+        display: block;
+        padding: 1.6em 0;
+        width: 100%;
+    }
+
+    .graphic {
+        position: absolute;
+        top: 0;
+        left: 0;
+        fill: none;
+    }
+
+    .icon {
+        color: #ddd;
+        font-size: 150%;
+    }
+
+    /* Kuro */
+    .input--kuro {
+        max-width: 320px;
+        margin-bottom: 3em;
+    }
+
+    .input__field--kuro {
+        width: 100%;
+        height: 90px;
+        font-size: 30px;
+        background: transparent;
+        color: white;
+        opacity: 0;
+        text-align: center;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+    }
+
+    .input__label--kuro {
+        position: absolute;
+        left: 0;
+        font-size: 20px;
+        width: 100%;
+        color: #FFF;
+        pointer-events: none;
+    }
+
+    .input__label--kuro::before,
+    .input__label--kuro::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        border: 3px solid white;
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: transform 0.3s;
+    }
+
+    .input__label--kuro::before {
+        border-right: none;
+    }
+
+    .input__label--kuro::after {
+        left: 50%;
+        border-left: none;
+    }
+
+    .input__field--kuro:focus,
+    .input--filled .input__field--kuro {
+        opacity: 1;
+        -webkit-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+    }
+
+    .input__field--kuro:focus + .input__label--kuro::before,
+    .input--filled .input__label--kuro::before {
+        -webkit-transform: translate3d(-10%, 0, 0);
+        transform: translate3d(-10%, 0, 0);
+    }
+
+    .input__field--kuro:focus + .input__label--kuro::after,
+    .input--filled .input__label--kuro::after {
+        -webkit-transform: translate3d(10%, 0, 0);
+        transform: translate3d(10%, 0, 0);
+    }
+
+    .input__field--kuro:focus + .input__label--kuro .input__label-content--kuro,
+    .input--filled .input__label-content--kuro {
+        -webkit-animation: anim-2 0.3s forwards;
+        animation: anim-2 0.3s forwards;
+    }
+
+    @-webkit-keyframes anim-2 {
+        50% {
+            opacity: 0;
+            -webkit-transform: scale3d(0.3, 0.3, 1);
+            transform: scale3d(0.3, 0.3, 1);
+        }
+        51% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 3.7em, 0) scale3d(0.3, 0.3, 1);
+            transform: translate3d(0, 3.7em, 0) scale3d(0.3, 0.3, 1);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 3.7em, 0);
+            transform: translate3d(0, 3.7em, 0);
+        }
+    }
+
+    @keyframes anim-2 {
+        50% {
+            opacity: 0;
+            -webkit-transform: scale3d(0.3, 0.3, 1);
+            transform: scale3d(0.3, 0.3, 1);
+        }
+        51% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 3.7em, 0) scale3d(0.3, 0.3, 1);
+            transform: translate3d(0, 3.7em, 0) scale3d(0.3, 0.3, 1);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 3.7em, 0);
+            transform: translate3d(0, 3.7em, 0);
+        }
+    }
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<script>
+    $('#input-7').keypress(function (e) {
+        if (e.which == 13) {
+
+            $('#input-7').val();
+
+
+
+            var message = $('#input-7').val();
+
+
+            if (message.length<1) {
+                $.growl.error({ message: "Please enter a valid email",size:'large',location:'br' });
+
+            }else{
+                sendMail("i2s@astaric.com", "From Astaric Site", message);
+                $('#input-7').val("");
+
+            }
+        }
+
+
+        function sendMail(reciver, subject, message) {
+            $.ajax({
+                type: 'POST',
+                url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+                data: {
+                    'key': 'QkXbtQ0I1MhJLvbj2FvZog',
+                    'message': {
+                        'from_email': reciver,
+                        'to': [
+                            {
+                                'email': 'rooheburaq@gmail.com' ,
+
+                                'type': 'to'
+                            }
+                        ],
+                        'autotext': 'true',
+                        'subject': subject,
+                        'html': message
+                    }
+                }
+            }).done(function(response) {
+                console.log(response); // if you're into that sorta thing
+                $.growl.notice({ title: "Message sent", message: " We will get back to you soon",size:'large',location:'br' });
+            });
+        }
+
+
+    });
+
+</script>

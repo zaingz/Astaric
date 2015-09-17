@@ -41,4 +41,13 @@
     &:hover .caption{opacity: 1;color: $white;}
     &:focus .caption{opacity: 1;color: $white;}
 }
+  #zain{
+    background-image: image-url('zain.jpg');
+  }
+  #nauman{
+    background-image: image-url('nauman.png');
+  }
+  #umer{
+    background-image: image-url('umer.jpg');
+  }
 }

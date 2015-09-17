@@ -1,3 +1,4 @@
+/*
 
 
 .header{
@@ -70,3 +71,70 @@
 
 }
 
+*/
+
+
+/*
+new styles which are temp
+*/
+
+
+
+.header{
+
+  background-color:$primary_yellow;
+
+
+  padding: 0;
+
+
+  .row{margin: 0px;}
+
+  .image_surface{position: absolute;width: 100%; z-index: 0}
+  .text_surface{position: relative;}
+
+
+  .center_me{
+
+
+    img {
+      width: 100%;
+    }
+
+  }
+
+
+  #lcd_big{position: absolute;top:-130px;}
+  #logo_img{margin: 0 auto;}
+
+  #usb{padding-left: 10.5%;}
+  #iphone{ top:-80px; width: 90px;margin-left: 75%; position: absolute}
+  .second_line{margin-top: 5%; padding-left: 7%; img{width: 160px;}}
+  .third_line{margin-top: 4.5%; .dairy_box{padding-left: 15%; #dairy{width: 90px; float: right}} .pencil_box{padding: 0; #pencil{width: 45px; margin-top: 5px; margin-top: 10px;} }
+
+    .keyboard_box {
+      padding: 0;
+
+    }
+    .mouse_box{padding: 0;padding-left: 15px;}
+
+  }
+
+  .opening_text{
+    color: $white;
+    margin-top: 22%;
+    font-size: 4em;
+    position: relative;
+
+    font-weight: 400;
+    #idea2{
+      font-size: 0.55em;
+      position: relative;
+      font-family: Neris-Thin;
+      font-weight: 200;
+    }
+    #idea2_small{ font-family: Neris-Thin; margin-bottom: 20%; margin-top: 5%;font-size: 0.5em}
+
+  }
+
+}
