@@ -51,8 +51,8 @@ body{
     margin-bottom: 8.5% !important;
   }
 
-
-
+#lcd_big{top:-60px !important;}
+  #add_bar{.col-sm-4{margin-top: 10px;margin-bottom: 10px;} }
 
 
 }
@@ -71,5 +71,6 @@ body{
   #view_btn{
     margin-bottom: 8.5% !important;
   }
-
+  #lcd_big{top:-30px !important;}
+  #add_bar{.col-sm-4{margin-top: 15px;margin-bottom: 15px;} }
 }
