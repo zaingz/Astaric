@@ -79,7 +79,12 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: Astaric_production
-  username: Astaric
-  password: <%= ENV['ASTARIC_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  username: nmkvpfnigsrqni
+  password: fZjBjS8yx3vMcIKWJ9gb1_6BOD
+  hostname: ec2-54-204-20-164.compute-1.amazonaws.com
+  pool: 5
+  port: 5432
+  url: postgres://nmkvpfnigsrqni:fZjBjS8yx3vMcIKWJ9gb1_6BOD@ec2-54-204-20-164.compute-1.amazonaws.com:5432/d8ike1it4ik9u2
+  database: d8ike1it4ik9u2
