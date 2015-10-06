@@ -7,25 +7,54 @@
 
   <div class="row form_box">
 
-    <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-6">
-        <input id="name_input" type="text" class="form-control small wow slideInLeft" data-wow-delay="0.0s"  placeholder="Your name">
-        <input id="email_input" type="email" class="form-control small wow slideInLeft" data-wow-delay="0.1s"  placeholder="Email Address">
-        <input id="subject_input" type="text" class="form-control small wow slideInLeft" data-wow-delay="0.2s"  placeholder="Subject">
+
+    <div class="col-md-10 col-md-offset-1">
+
+
+      <div class="col-md-6 address">
+        <div class="col-md-12 indi_add">
+          <p><i class="fa fa-phone"></i>&nbsp; +92 3008827183</p>
+          <p><i class="fa fa-map-marker"></i>&nbsp; 605, Old MOE Building, Mirqab, Kuwait</p>
+        </div>
+        <div class="col-md-12 indi_add" >
+          <p><i class="fa fa-phone"></i>&nbsp; +92 3008827183</p>
+          <p><i class="fa fa-map-marker"></i>&nbsp; 610 High Road, ILFORD, ESSEX, 1G3 8RF, London UK</p>
+        </div>
+        <div class="col-md-12 indi_add">
+          <p><i class="fa fa-phone"></i>&nbsp; +92 3008827183</p>
+          <p><i class="fa fa-map-marker"></i>&nbsp; 610 High Road, ILFORD, ESSEX, 1G3 8RF, London UK</p>
+        </div>
+
+        <div class="col-md-12">
+            <a class="s_icon"> <img class="img img-responsiv" src=<%=asset_path('fb.png')%>/></a>
+          <a class="s_icon"> <img class="img img-responsiv" src=<%=asset_path('li.png')%>/></a>
+          <a class="s_icon"> <img class="img img-responsiv" src=<%=asset_path('tw.png')%>/></a>
+        </div>
+
       </div>
-      <div class="col-md-6">
+
+    <div class="col-md-6 ">
+      <div class="col-md-12">
+        <input id="name_input" type="text" class="form-control small wow slideInRight" data-wow-delay="0.0s"  placeholder="Your name">
+        <input id="email_input" type="email" class="form-control small wow slideInRight" data-wow-delay="0.1s"  placeholder="Email Address">
+<!--
+        <input id="subject_input" type="text" class="form-control small wow slideInLeft" data-wow-delay="0.2s"  placeholder="Subject">
+-->
+      </div>
+      <div class="col-md-12">
         <textarea id="message_input" type="text" class="form-control big wow slideInRight" data-wow-delay="0.15s" id="exampleInputEmail1" placeholder="Your Message"></textarea>
       </div>
 
-
+      <div class="send_btn text-center">
+        <button id="send_btn" class="btn btn-default wow fadeIn"  data-wow-delay="0.27s">SEND MESSAGE</button>
+      </div>
 
     </div>
 
 
 
   </div>
-  <div class="send_btn text-center">
-    <button id="send_btn" class="btn btn-default wow fadeIn"  data-wow-delay="0.27s">SEND MESSAGE</button>
-  </div>
 
+
+  </div>
 </div>

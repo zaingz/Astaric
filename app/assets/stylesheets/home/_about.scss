@@ -1,0 +1,38 @@
+.about{
+
+  height: 1000px;
+  background-color: #cc3333;
+
+
+
+
+  .tittle{
+    margin-top: 5%;
+    color: white;
+  }
+  .h_line{
+    padding: 0;
+    margin-top: 8.5%;
+    height: 1.5px;
+    border-bottom: 1px solid white;
+  }
+
+  .content_box{
+    padding: 0;
+    position: absolute;
+    z-index: 9;
+    margin-top: 8.5%;
+    height: 800px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+
+    .indi_item{
+      margin-top: 7%;
+      text-align: center;
+      color:white;
+        img{margin: 0 auto;}
+        p{margin-top: 2%;}
+    }
+  }
+
+}

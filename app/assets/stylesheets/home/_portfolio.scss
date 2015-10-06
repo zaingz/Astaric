@@ -42,8 +42,8 @@
           a{color:$white;}
           -webkit-transition: opacity .25s ease;
           -moz-transition: opacity .25s ease;height: 250px;width: 100%; background-color: rgba(0,0,0,0.6);z-index: 2;text-align: center;vertical-align: middle;line-height: 250px;opacity: 0}
-        &:hover .caption{opacity: 1;color: $white;}
-      &:focus .caption{opacity: 1;color: $white;}
+        &:hover .caption{opacity: 0;color: $white;}
+      &:focus .caption{opacity: 0;color: $white;}
 
     }
 
@@ -63,22 +63,22 @@
 }
 
 
-#one{ background-image: image-url('bike.jpg');  background-size: cover; }
+#one{ background-image: image-url('1.jpg');  background-size: cover; }
 
-#two{ background-image: image-url('unicorn.jpg');  background-size: cover; }
+#two{ background-image: image-url('logo2.jpg');  background-size: cover; }
 
-#three{ background-image: image-url('d1.png');  background-size: cover; }
+#three{ background-image: image-url('app2.jpg');  background-size: cover; }
 
-#four{ background-image: image-url('d2.png');  background-size: cover; }
+#four{ background-image: image-url('brand7.jpg');  background-size: cover; }
 
 
-#five{ background-image: image-url('caset.png');  background-size: cover; }
+#five{ background-image: image-url('app7.jpg');  background-size: cover; }
 
-#six{ background-image: image-url('bird.png');  background-size: cover; }
+#six{ background-image: image-url('3.jpg');  background-size: cover; }
 
-#seven{ background-image: image-url('bike.jpg');  background-size: cover; }
+#seven{ background-image: image-url('print3.jpg');  background-size: cover; }
 
-#eight{ background-image: image-url('unicorn.jpg');  background-size: cover; }
+#eight{ background-image: image-url('logo8.jpg');  background-size: cover; }
 
 
 #nine{ background-image: image-url('white_mag.png');  background-size: cover; }
@@ -87,9 +87,122 @@
 
 #eleven{ background-image: image-url('fest.png');  background-size: cover; }
 
+#app1{ background-image: image-url('app1.jpg');  background-size: cover; }
+
+#app2{ background-image: image-url('app2.jpg');  background-size: cover; }
+
+#app3{ background-image: image-url('app3.jpg');  background-size: cover; }
+
+#app4{ background-image: image-url('app4.jpg');  background-size: cover; }
+
+#app5{ background-image: image-url('app5.jpg');  background-size: cover; }
+
+#app6{ background-image: image-url('app6.jpg');  background-size: cover; }
+
+#app7{ background-image: image-url('app7.jpg');  background-size: cover; }
+
+#app8{ background-image: image-url('app8.jpg');  background-size: cover; }
+#app9{ background-image: image-url('app9.jpg');  background-size: cover; }
+#app10{ background-image: image-url('app10.jpg');  background-size: cover; }
+#app11{ background-image: image-url('app11.png');  background-size: cover; }
+#app12{ background-image: image-url('app12.jpg');  background-size: cover; }
 
 
 
+#logo1{ background-image: image-url('logo1.jpg');  background-size: cover; }
+
+#logo2{ background-image: image-url('logo2.jpg');  background-size: cover; }
+#logo3{ background-image: image-url('logo3.jpg');  background-size: cover; }
+#logo4{ background-image: image-url('logo4.jpg');  background-size: cover; }
+#logo5{ background-image: image-url('logo5.jpg');  background-size: cover; }
+#logo6{ background-image: image-url('logo6.jpg');  background-size: cover; }
+#logo7{ background-image: image-url('logo7.jpg');  background-size: cover; }
+#logo8{ background-image: image-url('logo8.jpg');  background-size: cover; }
+#logo9{ background-image: image-url('logo9.jpg');  background-size: cover; }
+#logo10{ background-image: image-url('logo10.jpg');  background-size: cover; }
+#logo11{ background-image: image-url('logo11.jpg');  background-size: cover; }
+#logo12{ background-image: image-url('logo12.jpg');  background-size: cover; }
+#logo13{ background-image: image-url('logo13.jpg');  background-size: cover; }
+#logo14{ background-image: image-url('logo14.jpg');  background-size: cover; }
+#logo15{ background-image: image-url('logo15.jpg');  background-size: cover; }
+#logo16{ background-image: image-url('logo16.jpg');  background-size: cover; }
+#logo17{ background-image: image-url('logo17.jpg');  background-size: cover; }
+#logo18{ background-image: image-url('logo18.jpg');  background-size: cover; }
+#logo19{ background-image: image-url('logo19.jpg');  background-size: cover; }
+#logo20{ background-image: image-url('logo20.jpg');  background-size: cover; }
+#logo21{ background-image: image-url('logo21.jpg');  background-size: cover; }
+#logo22{ background-image: image-url('logo22.jpg');  background-size: cover; }
+#logo23{ background-image: image-url('logo23.jpg');  background-size: cover; }
+#logo24{ background-image: image-url('logo24.jpg');  background-size: cover; }
+
+
+#brand1{ background-image: image-url('brand1.jpg');  background-size: cover; }
+
+#brand2{ background-image: image-url('brand2.jpg');  background-size: cover; }
+
+#brand3{ background-image: image-url('brand3.jpg');  background-size: cover; }
+
+#brand4{ background-image: image-url('brand4.jpg');  background-size: cover; }
+
+#brand5{ background-image: image-url('brand5.jpg');  background-size: cover; }
+
+
+#brand6{ background-image: image-url('brand6.jpg');  background-size: cover; }
+
+#brand7{ background-image: image-url('brand7.jpg');  background-size: cover; }
+
+#brand8{ background-image: image-url('brand8.jpg');  background-size: cover; }
+
+#brand9{ background-image: image-url('brand9.jpg');  background-size: cover; }
+
+#brand10{ background-image: image-url('brand10.jpg');  background-size: cover; }
+
+#brand11{ background-image: image-url('brand11.jpg');  background-size: cover; }
+#brand12{ background-image: image-url('brand12.jpg');  background-size: cover; }
+
+
+
+
+#web1{ background-image: image-url('1.jpg');  background-size: cover; }
+
+#web2{ background-image: image-url('2.jpg');  background-size: cover; }
+
+#web3{ background-image: image-url('3.jpg');  background-size: cover; }
+#web4{ background-image: image-url('4.jpg');  background-size: cover; }
+#web5{ background-image: image-url('5.jpg');  background-size: cover; }
+#web6{ background-image: image-url('6.jpg');  background-size: cover; }
+#web7{ background-image: image-url('7.jpg');  background-size: cover; }
+#web8{ background-image: image-url('8.jpg');  background-size: cover; }
+#web9{ background-image: image-url('9.jpg');  background-size: cover; }
+#web10{ background-image: image-url('10.jpg');  background-size: cover; }
+#web11{ background-image: image-url('11.jpg');  background-size: cover; }
+#web12{ background-image: image-url('12.jpg');  background-size: cover; }
+
+
+
+#print1{ background-image: image-url('print1.jpg');  background-size: cover; }
+
+#print2{ background-image: image-url('print2.jpg');  background-size: cover; }
+
+#print3{ background-image: image-url('print3.jpg');  background-size: cover; }
+
+#print4{ background-image: image-url('print4.jpg');  background-size: cover; }
+
+#print5{ background-image: image-url('print5.jpg');  background-size: cover; }
+
+
+#print6{ background-image: image-url('print6.jpg');  background-size: cover; }
+
+#print7{ background-image: image-url('print7.jpg');  background-size: cover; }
+
+#print8{ background-image: image-url('print8.jpg');  background-size: cover; }
+
+#print9{ background-image: image-url('print9.jpg');  background-size: cover; }
+
+#print10{ background-image: image-url('print10.jpg');  background-size: cover; }
+
+#print11{ background-image: image-url('print11.jpg');  background-size: cover; }
+#print12{ background-image: image-url('print12.jpg');  background-size: cover; }
 
 
 

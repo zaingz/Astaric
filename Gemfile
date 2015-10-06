@@ -30,6 +30,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 
 gem 'font-awesome-rails'
 
+gem 'cloudinary'
+gem 'carrierwave'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

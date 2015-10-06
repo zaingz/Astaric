@@ -27,15 +27,26 @@
 
   .form_box{
     margin-top: 2%;
+    .address{
+      color: white;
+      margin-top: 48px;
+      .indi_add{
+        margin-bottom: 40px;
+
+      }
+    }
+
+
     .small{margin: 30px 5px 30px 5px;height: 45px;}
-    .big{margin: 30px 5px 30px 5px;height: 194px;}
+    .big{margin: 0px 5px 30px 5px;height: 194px;}
+.s_icon{margin-right: 13px;}
 
     }
   .send_btn{
-    margin-top: 1%;
+    margin-top: 5%;
 
-    margin-bottom: 7%;
-    button{background-color: $primary_yellow;border:none;color:$white;font-size: 1.3em; padding: 17px 36px 17px 36px;
+    margin-bottom: 10%;
+    button{background-color: $primary_yellow;border:none;color:$white;font-size: 1.3em; padding: 17px 30px 17px 30px;
     transition: all 0.3s;
       &:hover{background-color: white; color: #F7941E}
     }

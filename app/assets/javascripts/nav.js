@@ -41,6 +41,15 @@ $(document).ready(function() {
         e.preventDefault();
         $("html, body").delay(1).animate({scrollTop: $('.contact').offset().top-51 }, 1000);
     });
+    $('#about').click(function(e) {
 
+        e.preventDefault();
+        $("html, body").delay(1).animate({scrollTop: $('.about').offset().top-51 }, 1000);
+    });
+    $('#testi').click(function(e) {
+
+        e.preventDefault();
+        $("html, body").delay(1).animate({scrollTop: $('.testimonials').offset().top+50 }, 1000);
+    });
 
 });

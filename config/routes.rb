@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :projects do
+    collection do
+      post 'sign_in'
+    end
+  end
   root 'home#index'
 
   get 'webmail' => 'webmail#index'

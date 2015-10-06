@@ -27,8 +27,8 @@ body{
 @import "home/contact";
 @import "home/social";
 @import "home/footer";
-
-
+@import "home/testimonials";
+@import "home/about";
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -54,7 +54,33 @@ body{
 #lcd_big{top:-60px !important;}
   #add_bar{.col-sm-4{margin-top: 10px;margin-bottom: 10px;} }
 
+#testi_box{
+.img-circle{
+  margin-top: 20px;
+}
+  .text-wrapper{
+    margin-top: 25px !important;
+    margin-bottom: 35px !important;
+  }
 
+}
+  .about {
+    .chupo{display: none !important;}
+    height: 860px !important;
+    .tittle {
+
+      margin-top:75px !important;
+    }
+    .content_box{      margin-top:120px !important;}
+  }
+  #myNavbar{
+    padding-left: 0 !important;
+  }
+  .nav_links{
+    padding: 0;
+    overflow-x: hidden;
+    li{width: 100% !important; text-align: center;}
+  }
 }
 
 /* Portrait phones and smaller */
