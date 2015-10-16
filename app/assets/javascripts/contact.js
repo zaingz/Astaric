@@ -9,20 +9,26 @@ $(document).ready(function() {
         var message = $('#message_input').val();
 
 
-        if (name.length<1 || email.length<1 || subject.length<1 || message.length<1) {
-            $.growl.error({ message: "Fill out all the fields",size:'large',location:'br' });
+        if (name.length<1 || email.length<1 || message.length<1) {
+            $.growl.error({message: "Fill out all the fields", size: 'large', location: 'br'});
 
-        }else{
-            sendMail(email, subject, message);
-            $('#name_input').val("");
-            $('#email_input').val("");
-            $('#subject_input').val("");
-            $('#message_input').val("");
 
+
+        }
+        else{
+            if (email.indexOf("@")==-1 && !email.indexOf(".")==-1){
+                $.growl.error({message: "Email not valid", size: 'large', location: 'br'});
+                console.log("invalid ");
+            }else {
+                //sendMail(email, subject, message);
+                $('#name_input').val("");
+                $('#email_input').val("");
+                $('#subject_input').val("");
+                $('#message_input').val("");
+            }
         }
 
     });
-
 
 
 

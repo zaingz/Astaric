@@ -36,7 +36,7 @@
     padding-top: 35%;
     -moz-transition: opacity .25s ease;height: 350px;width: 100%; background-color: rgba(0,0,0,0.6);z-index: 2;text-align: center;vertical-align: middle;opacity: 0;
 
-
+  a{color:white;}
 
   }
   .intro{
@@ -45,6 +45,24 @@
     &:hover .caption{opacity: 1;color: $white;}
     &:focus .caption{opacity: 1;color: $white;}
 }
+  #ijaz{
+    background-image: image-url('ijaz.png');
+  }
+  #amo{
+    background-image: image-url('bike.jpg');
+  }
+
+  #nisar{
+    background-image: image-url('nisar.jpg');
+  }
+  #khuram{
+    background-image: image-url('khuram.png');
+  }
+
+  #fiaz{
+    background-image: image-url('fiaz.jpg');
+  }
+
   #zain{
     background-image: image-url('zain.jpg');
   }
