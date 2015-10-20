@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
-  resources :projects do
+  resources :projects, except: [:show] do
     collection do
       post 'sign_in'
     end
   end
+
+  match '/projects/:title' => 'projects#show' ,:as => :project_with_title, via: :get
+ # match '/projects/:title/edit' => 'projects#update' ,:as => :project_with_title_edit, via: :get
+
   root 'home#index'
 
   get 'webmail' => 'webmail#index'

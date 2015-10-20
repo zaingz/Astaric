@@ -2,5 +2,5 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @project %> |
+<%= link_to 'Show',  project_with_title_path(@project, :title => @project.tittle) %> |
 <%= link_to 'Back', projects_path %>

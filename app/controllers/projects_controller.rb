@@ -1,5 +1,5 @@
 class ProjectsController < ApplicationController
-  before_action :set_project, only: [:show, :edit, :update, :destroy]
+  before_action :set_project, only: [:edit, :update, :destroy]
   before_filter :authenticate, except: [:show, :sign_in]
 
   # GET /projects
@@ -9,6 +9,7 @@ class ProjectsController < ApplicationController
 
   # GET /projects/1
   def show
+    @project =Project.find_by_tittle(params[:title])
   end
 
   # GET /projects/new
@@ -25,7 +26,7 @@ class ProjectsController < ApplicationController
     @project = Project.new(project_params)
 
     if @project.save
-      redirect_to @project, notice: 'Project was successfully created.'
+      redirect_to  project_with_title_path(@project, :title => @project.tittle), notice: 'Project was successfully created.'
     else
       render :new
     end
@@ -34,7 +35,7 @@ class ProjectsController < ApplicationController
   # PATCH/PUT /projects/1
   def update
     if @project.update(project_params)
-      redirect_to @project, notice: 'Project was successfully updated.'
+      redirect_to project_with_title_path(@project, :title => @project.tittle), notice: 'Project was successfully updated.'
     else
       render :edit
     end
@@ -58,7 +59,7 @@ class ProjectsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_project
-      @project = Project.find(params[:id])
+      @project =Project.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
