@@ -19,7 +19,7 @@
     .icon{margin-top:1.2%; img{margin: 0 auto;}}
     .filters{color: $white; margin-top: 5%; ul{ text-align: center;padding: 0;
       margin-bottom: 15%;
-      li{display:inline-block; list-style: none;border:2px solid;border-color:$primary_yellow; padding: 3px 5px 3px 5px;margin: 0 5px 0 5px;&:hover{background-color: $primary_yellow;cursor: pointer; cursor: hand;} }}}
+      li{;display:inline-block; list-style: none;border:2px solid;border-color:$primary_yellow; padding: 3px 5px 3px 5px;margin: 5px 5px 5px 5px;&:hover{background-color: $primary_yellow;cursor: pointer; cursor: hand;} }}}
   }
 }
 
@@ -35,7 +35,9 @@
       overflow:hidden;
       height: 250px;
       background-image: image-url('bike.jpg');
+
       background-size: cover;
+      background-position: center center;
 
 
         .caption{
